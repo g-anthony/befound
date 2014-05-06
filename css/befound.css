@@ -1,3 +1,51 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+.wrapper{
+		max-width:1200px;
+		background-color:#fff;
+		margin:0 auto;
+}
+
+
+header{
+
+	background-color:blue;
+}
+
+nav{
+	height:50px;
+	background-color: #CFCFCF;
+	
+}
+
+
+
+
+
+
+
+/* Panel Module
+===================*/
+
+.panel-wrap{
+	background-color:#D9D9D9;
+	width:100%;
+}
+
+.panel-wrap .panel:first-child{margin-left:0;}
+
+
+.two-column .panel{
+	width:49.375%;
+	background-color:red;
+	height:100px;
+	margin-left:1.25%;
+	float:left;
+}
+
+
+
+/* Layout
+===================*/
